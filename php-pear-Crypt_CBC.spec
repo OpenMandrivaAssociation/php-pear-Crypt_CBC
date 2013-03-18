@@ -3,13 +3,13 @@
 %define		upstream_name	%{_class}_%{_subclass}
 
 Name:		php-pear-%{upstream_name}
-Version:	1.0.0
-Release:	8
+Version:	1.0.1
+Release:	1
 Summary:	A class to emulate Perl's Crypt::CBC module
 License:	PHP License
 Group:		Development/PHP
 URL:		http://pear.php.net/package/Crypt_CBC/
-Source0:	http://download.pear.php.net/package/%{upstream_name}-%{version}.tar.bz2
+Source0:	http://download.pear.php.net/package/Crypt_CBC-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
 Requires:	php-pear
@@ -117,4 +117,5 @@ install -m 644 %{upstream_name}.xml %{buildroot}%{_datadir}/pear/packages
 
 * Tue Jul 19 2005 Oden Eriksson <oeriksson@mandriva.com> 0.4-1mdk
 - initial Mandriva package (PLD import)
+
 

@@ -1,2 +1,4 @@
+removed_sources:
+  Crypt_CBC-1.0.0.tar.bz2: bda0113c303b64bcb80e19d5730333a0965e19d8
 sources:
-  "Crypt_CBC-1.0.0.tar.bz2": bda0113c303b64bcb80e19d5730333a0965e19d8
+  Crypt_CBC-1.0.1.tgz: 67d029af5aae101fc5898ef22c5fceaaf5e70594
