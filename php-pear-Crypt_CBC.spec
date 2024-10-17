@@ -8,7 +8,7 @@ Release:	2
 Summary:	A class to emulate Perl's Crypt::CBC module
 License:	PHP License
 Group:		Development/PHP
-URL:		http://pear.php.net/package/Crypt_CBC/
+URL:		https://pear.php.net/package/Crypt_CBC/
 Source0:	http://download.pear.php.net/package/Crypt_CBC-%{version}.tgz
 Requires(post): php-pear
 Requires(preun): php-pear
